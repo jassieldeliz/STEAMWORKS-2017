@@ -15,5 +15,21 @@ public class Gyro extends Subsystem {
         // Set the default command for a subsystem here.
         //setDefaultCommand(new MySpecialCommand());
     }
+    
+    public double getAngle() {
+    	return 0;
+    }
+    
+    public void reportGyroValues() {
+    	return;
+    }
+    
+    public void gyroReset() {
+    	
+    }
+    
+    public double getGyroYaw() {
+    	return 0;
+    }
 }
 

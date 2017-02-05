@@ -19,18 +19,19 @@ public class RobotMap {
 	// Pneumatics
 	public static final int pneumatics_sensor_port = 1;
 
-//Important Drivebase Values
+	// Drivebase
+	
 	//CANTalon Ports (best to not start with 1, because that is the number assigned to a CANTalon by default)
 	public static final int drivebase_LeftTalon = 2;
-	public static final int drivebase_RightTalon = 3;
-	public static final int drivebase_CenterTalon = 4;
+	public static final int drivebase_RightTalon = 5;
+	public static final int drivebase_CenterTalon = 9;
 	
 	// Slave CANTalons
-	public static final int drivebase_LeftTalon2 = 5;
-	public static final int drivebase_LeftTalon3 = 6;
-	public static final int drivebase_RightTalon2 = 7;
-	public static final int drivebase_RightTalon3 = 8;
-	public static final int drivebase_CenterTalon2 = 9;
+	public static final int drivebase_LeftTalon2 = 3;
+	public static final int drivebase_LeftTalon3 = 4;
+	public static final int drivebase_RightTalon2 = 6;
+	public static final int drivebase_RightTalon3 = 7;
+	public static final int drivebase_CenterTalon2 = 10;
 	
-
+	
 }
