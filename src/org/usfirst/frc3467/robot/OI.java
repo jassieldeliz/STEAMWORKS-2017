@@ -27,7 +27,7 @@ public class OI {
 /*
  * Joystick Mappings (done elsewhere in code)
  * 
- * Joystick PrimaryStick - used for Tank or Arcade Drive
+ * Joystick PrimaryStick - used for Robot-centric. Field-centric, or Arcade Drive
  * 
  * Gamepad getRightStickX() - used for manual drive of Intake rollers
  * Gamepad getLeftStickY() - used for manual drive of Catapult reset bar
@@ -97,14 +97,14 @@ public class OI {
 			.whenPressed(new PreciseRotateToAngle());
 		
 		new JoystickButton(PrimaryStick, 4)
-			.whenPressed(new ArcadeDrive());
+			.whenPressed(new RobotCentricDrive());
 		
 		//Toggle in and out of AimBot
 		new JoystickButton(PrimaryStick, 1)
 			.whileHeld(new AimBot());
 		
 		new JoystickButton(PrimaryStick, 2)
-			.whenPressed(new ArcadeDrive());
+			.whenPressed(new RobotCentricDrive());
 */
 		
 /*
