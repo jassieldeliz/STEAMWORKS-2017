@@ -42,6 +42,7 @@ public class RobotMap {
 	public static final int IntakeMotorTwo = 0;
 
 	public static int intake_solenoid_extend;
+
 	public static int intake_solenoid_retract;
 
 	
