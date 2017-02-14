@@ -3,10 +3,11 @@ package org.usfirst.frc3467.subsystems.FloorIntake;
 
 import edu.wpi.first.wpilibj.command.Subsystem;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
-import edu.wpi.first.wpilibj.CANTalon;
 import edu.wpi.first.wpilibj.DoubleSolenoid;
 import edu.wpi.first.wpilibj.DoubleSolenoid.Value;
 import org.usfirst.frc3467.robot.RobotMap;
+
+import com.ctre.CANTalon;
 
 public class FloorIntake extends Subsystem {
 	
