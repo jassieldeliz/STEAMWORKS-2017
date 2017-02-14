@@ -77,6 +77,7 @@ public abstract class CommandBase extends Command {
 		subsystemList.addElement(shooter);
 		
 		//Initial Commands
+		oi = new OI();
 		oi.BindCommands();	
 	}
 	
