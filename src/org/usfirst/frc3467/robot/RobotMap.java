@@ -25,13 +25,19 @@ public class RobotMap {
 	public static final int drivebase_LeftTalon = 2;
 	public static final int drivebase_RightTalon = 5;
 	public static final int drivebase_CenterTalon = 9;
-	
+	public static final int climbMotor = 0;
 	// Slave CANTalons
 	public static final int drivebase_LeftTalon2 = 3;
 	public static final int drivebase_LeftTalon3 = 4;
 	public static final int drivebase_RightTalon2 = 6;
 	public static final int drivebase_RightTalon3 = 7;
 	public static final int drivebase_CenterTalon2 = 10;
+
+	public static final int hopper_solenoid_retract = 0;
+
+	public static final int hopper_solenoid_deploy = 0;
+
+	
 	
 	
 }
