@@ -37,6 +37,14 @@ public class RobotMap {
 
 	public static final int hopper_solenoid_deploy = 0;
 
+	public static final int IntakeMotorOne = 0;
+
+	public static final int IntakeMotorTwo = 0;
+
+	public static int intake_solenoid_extend;
+
+	public static int intake_solenoid_retract;
+
 	
 	
 	
