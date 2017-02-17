@@ -52,4 +52,7 @@ public class RobotMap {
 	public static final int claw_grab = 8;
 	public static final int claw_release = 9;
 	
+	
+	
+	
 }
