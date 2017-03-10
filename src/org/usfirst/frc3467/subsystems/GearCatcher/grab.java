@@ -1,13 +1,13 @@
-package org.usfirst.frc3467.subsystems.Hopper;
+package org.usfirst.frc3467.subsystems.GearCatcher;
 
 import edu.wpi.first.wpilibj.command.Command;
 
 /**
  *
  */
-public class Pivot extends Command {
+public class grab extends Command {
 
-    public Pivot() {
+    public grab() {
         // Use requires() here to declare subsystem dependencies
         // eg. requires(chassis);
     }
